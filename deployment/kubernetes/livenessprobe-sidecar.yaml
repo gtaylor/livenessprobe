@@ -12,7 +12,6 @@
       name: healthz
       protocol: TCP
     livenessProbe:
-      failureThreshold: 5
       httpGet:
         path: /healthz
         port: healthz
